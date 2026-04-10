@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Natural Male Health Support | UK Delivery</title>
+    <meta name="description" content="100% Natural Male Health Supplements - Superior Quality, Fast UK Delivery, No Artificial Additives.">
+    <meta name="geo.region" content="GB">
+    <meta name="geo.placename" content="United Kingdom">
+    <style>
+        /* 全局样式：增加质感背景+丰富色彩体系 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', 'Helvetica', sans-serif;
+        }
+        html, body {
+            width: 100%;
+            overflow-x: hidden;
+            line-height: 1.5; /* 行高更紧凑 */
+            color: #2A2A2A;
+            background-color: #F9F7F2;
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%231e5b68' fill-opacity='0.02' fill-rule='evenodd'/%3E%3C/svg%3E");
+            min-height: 100vh;
+            -webkit-min-height: 100vh;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 3%; /* 减少容器左右留白 */
+        }
+
+        /* 色彩变量：统一管理，丰富层次 */
+        :root {
+            --primary: #1E5B68; /* 主青 */
+            --primary-light: #24707F; /* 浅青 */
+            --primary-dark: #164752; /* 深青 */
+            --accent: #D4B16A; /* 暖金（新增辅助色） */
+            --accent-light: #E8C885; /* 浅金 */
+            --accent-dark: #B99850; /* 深金 */
+            --price: #C8553D; /* 价格红 */
+            --text: #2A2A2A; /* 主文本 */
+            --text-light: #4A4A4A; /* 次文本 */
+            --bg-main: #F9F7F2; /* 主背景 */
+            --bg-card: #FFFFFF; /* 卡片背景 */
+            --bg-form: #F8F7F3; /* 表单背景 */
+            --border: #E8E7E0; /* 边框色 */
+            --error: #C8553D; /* 错误提示色 */
+        }
+
+        /* Banner区：减少底部外边距，更紧凑 */
+        .banner-section {
+            width: 100%;
+            position: relative;
+            padding-top: env(safe-area-inset-top);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+            margin-bottom: 0.5rem; /* 大幅减少banner底部留白 */
+        }
+        .banner-img {
+            width: 100%;
+            height: clamp(180px, 40vw, 320px); /* 缩小banner高度 */
+            object-fit: cover;
+            display: block;
+            filter: brightness(0.75) contrast(1.05);
+        }
+        .banner-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 3%; /* 减少overlay内边距 */
+            color: #FFFFFF;
+            padding-top: env(safe-area-inset-top);
+            background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.3));
+        }
+        .banner-title {
+            font-size: clamp(1.4rem, 5vw, 2.5rem); /* 缩小标题字号 */
+            font-weight: 700;
+            margin-bottom: 0.5rem; /* 减少标题与副标题间距 */
+            text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+            white-space: normal;
+            line-height: 1.1; /* 行高更紧凑 */
+        }
+        .banner-subtitle {
+            font-size: clamp(0.8rem, 3vw, 1.2rem); /* 缩小副标题字号 */
+            max-width: 90%;
+            margin-bottom: 0;
+            text-shadow: 0 1px 6px rgba(0,0,0,0.6);
+            line-height: 1.4; /* 行高更紧凑 */
+        }
+        .banner-highlight {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        /* 产品介绍区：大幅减少内边距，更紧凑 */
+        .intro-section {
+            padding: 1.5rem 0; /* 原3rem → 1.5rem */
+            width: 100%;
+        }
+        .section-intro {
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: clamp(0.9rem, 2.8vw, 1.1rem); /* 缩小字号 */
+            color: var(--text-light);
+            line-height: 1.6;
+            padding: 1.2rem 3%; /* 原2rem → 1.2rem */
+            background-color: var(--bg-card);
+            border-radius: 12px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.03);
+            border-top: 3px solid var(--accent);
+        }
+        .section-intro .highlight {
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        /* 产品套餐区：减少间距和内边距 */
+        .products-section {
+            padding: 0 0 2rem; /* 原4rem → 2rem */
+            width: 100%;
+        }
+        .products-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem; /* 原2rem → 1rem，减少卡片间距 */
+            width: 100%;
+            padding: 0 3%; /* 原5% → 3% */
+        }
+        @media (min-width: 768px) {
+            .products-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1.5rem; /* 原3rem → 1.5rem */
+                padding: 0 3%;
+            }
+        }
+        .product-card {
+            background-color: var(--bg-card);
+            border-radius: 12px; /* 原16px → 12px，卡片更紧凑 */
+            box-shadow: 0 6px 25px rgba(0,0,0,0.04), 0 2px 8px rgba(0,0,0,0.02);
+            overflow: hidden;
+            transition: all 0.4s ease;
+            width: 100%;
+            position: relative;
+            border: 1px solid rgba(0,0,0,0.02);
+        }
+        .product-card.best-value {
+            border: 2px solid var(--primary);
+            box-shadow: 0 10px 30px rgba(30, 91, 104, 0.08), 0 4px 12px rgba(0,0,0,0.04);
+            transform: translateY(-3px); /* 原5px → 3px，减少上浮距离 */
+            overflow: visible;
+        }
+        .product-card.best-value::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 35px; /* 原40px → 35px */
+            height: 35px; /* 原40px → 35px */
+            background-color: var(--accent);
+            clip-path: polygon(100% 0, 0 0, 100% 100%);
+            opacity: 0.8;
+        }
+        .product-card:hover {
+            box-shadow: 0 12px 35px rgba(0,0,0,0.08);
+            transform: translateY(-5px); /* 原8px → 5px */
+        }
+        .product-card.best-value:hover {
+            transform: translateY(-6px); /* 原10px → 6px */
+        }
+        .best-value-badge {
+            position: absolute;
+            top: 10px; /* 原15px → 10px */
+            right: 10px; /* 原15px → 10px */
+            background-color: var(--primary);
+            color: #FFFFFF;
+            padding: 4px 8px; /* 原5px 10px → 4px 8px */
+            border-radius: 16px; /* 原20px → 16px */
+            font-size: 0.8rem; /* 原0.85rem → 0.8rem */
+            font-weight: 600;
+            z-index: 10;
+            box-shadow: 0 2px 8px rgba(30, 91, 104, 0.3);
+        }
+        .product-img {
+            width: 100%;
+            height: clamp(160px, 38vw, 240px); /* 缩小图片高度 */
+            object-fit: cover;
+            filter: brightness(0.98) contrast(1.02);
+        }
+        .product-info {
+            padding: 1.2rem 1.2rem; /* 原1.8rem 1.5rem → 1.2rem 1.2rem */
+            border-top: 1px solid rgba(0,0,0,0.03);
+        }
+        .product-name {
+            font-size: clamp(1.1rem, 3.5vw, 1.3rem); /* 缩小字号 */
+            margin-bottom: 0.6rem; /* 原1rem → 0.6rem */
+            color: var(--text);
+            font-weight: 700;
+        }
+        .product-desc {
+            color: var(--text-light);
+            margin-bottom: 0.8rem; /* 原1.5rem → 0.8rem */
+            font-size: clamp(0.85rem, 2.8vw, 1rem); /* 缩小字号 */
+            line-height: 1.5; /* 行高更紧凑 */
+        }
+        .product-desc .natural {
+            color: var(--primary);
+            font-weight: 600;
+        }
+        .product-price {
+            font-size: clamp(1.2rem, 3.5vw, 1.5rem); /* 缩小字号 */
+            font-weight: bold;
+            color: var(--price);
+            margin-bottom: 0.3rem; /* 原0.5rem → 0.3rem */
+        }
+        .product-saving {
+            font-size: 0.85rem; /* 原0.9rem → 0.85rem */
+            color: var(--primary);
+            font-weight: 600;
+            display: inline-block;
+            padding: 0.15rem 0.6rem; /* 原0.2rem 0.8rem → 0.15rem 0.6rem */
+            background-color: rgba(30, 91, 104, 0.06);
+            border-radius: 10px; /* 原12px → 10px */
+            border: 1px solid rgba(212, 177, 106, 0.2);
+        }
+
+        /* 引导区：减少内边距和间距 */
+        .cta-section {
+            padding: 1.5rem 0; /* 原3rem → 1.5rem */
+            width: 100%;
+            text-align: center;
+        }
+        .cta-title {
+            font-size: clamp(1.2rem, 4.5vw, 1.8rem); /* 缩小字号 */
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 1rem; /* 原1.5rem → 1rem */
+            line-height: 1.2; /* 行高更紧凑 */
+        }
+        .cta-title .highlight {
+            color: var(--primary);
+        }
+        .cta-tags {
+            display: flex;
+            justify-content: center;
+            gap: 0.6rem; /* 原0.8rem → 0.6rem */
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0 3%;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            padding-bottom: 0.3rem; /* 原0.5rem → 0.3rem */
+        }
+        .cta-tags::-webkit-scrollbar {
+            display: none;
+        }
+        .cta-tag {
+            padding: 0.5rem 0.8rem; /* 原0.6rem 1rem → 0.5rem 0.8rem */
+            background-color: var(--bg-card);
+            border-radius: 40px; /* 原50px → 40px */
+            font-size: clamp(0.7rem, 2.2vw, 0.95rem); /* 缩小字号 */
+            color: var(--text);
+            font-weight: 600;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+            border-left: 3px solid var(--accent);
+            display: flex;
+            align-items: center;
+            gap: 0.3rem; /* 原0.4rem → 0.3rem */
+            flex: 0 0 auto;
+            white-space: nowrap;
+        }
+        .cta-tag::before {
+            content: '✓';
+            color: var(--accent);
+            font-size: 1rem; /* 原1.1rem → 1rem */
+            font-weight: bold;
+        }
+        @media (min-width: 768px) {
+            .cta-tags {
+                flex-wrap: wrap;
+                overflow-x: visible;
+            }
+            .cta-tag {
+                padding: 0.6rem 1.2rem; /* 原0.8rem 1.5rem → 0.6rem 1.2rem */
+                font-size: clamp(0.85rem, 2.8vw, 1rem); /* 缩小字号 */
+            }
+        }
+
+        /* 订单表单区：减少内边距和间距 */
+        .order-section {
+            padding: 2rem 0; /* 原4rem → 2rem */
+            background-color: var(--bg-form);
+            width: 100%;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.03);
+            border-top: 1px solid var(--accent-light);
+        }
+        .order-form {
+            width: 95%; /* 原90% → 95%，表单更宽 */
+            max-width: 750px; /* 原800px → 750px */
+            margin: 0 auto;
+            background-color: var(--bg-card);
+            padding: clamp(1rem, 4vw, 2rem); /* 原1.5rem/3rem → 1rem/2rem */
+            border-radius: 12px; /* 原16px → 12px */
+            box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+            border: 1px solid rgba(0,0,0,0.02);
+            border-bottom: 3px solid var(--accent-light);
+        }
+        .form-group {
+            margin-bottom: 1rem; /* 原1.5rem → 1rem */
+            width: 100%;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.4rem; /* 原0.6rem → 0.4rem */
+            font-weight: 600;
+            color: var(--text);
+            font-size: clamp(0.9rem, 2.8vw, 1rem); /* 缩小字号 */
+        }
+        .form-group input, 
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.8rem 1rem; /* 原1rem 1.2rem → 0.8rem 1rem */
+            border: 1px solid var(--border);
+            border-radius: 8px; /* 原10px → 8px */
+            font-size: clamp(0.85rem, 2.8vw, 1rem); /* 缩小字号 */
+            font-family: inherit;
+            transition: all 0.3s ease;
+            background-color: #FAFAF5;
+        }
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(30, 91, 104, 0.1), 0 0 0 1px var(--accent-light);
+            background-color: var(--bg-card);
+        }
+        .form-group.error input,
+        .form-group.error select,
+        .form-group.error textarea {
+            border-color: var(--error);
+            box-shadow: 0 0 0 3px rgba(200, 85, 61, 0.1);
+        }
+        .pay-btn {
+            width: 100%;
+            padding: 1rem; /* 原1.2rem → 1rem */
+            border: none;
+            border-radius: 8px; /* 原10px → 8px */
+            font-size: clamp(0.95rem, 2.8vw, 1.15rem); /* 缩小字号 */
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.3px; /* 原0.5px → 0.3px */
+            background: linear-gradient(135deg, var(--primary), var(--primary-light), var(--accent-dark));
+            background-size: 200% 200%;
+            color: #FFFFFF;
+            box-shadow: 0 4px 15px rgba(30, 91, 104, 0.2);
+            animation: gradientShift 8s ease infinite;
+        }
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .pay-btn:hover {
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary), var(--accent));
+            transform: translateY(-1px); /* 原2px → 1px */
+            box-shadow: 0 6px 20px rgba(30, 91, 104, 0.3);
+        }
+
+        /* 弹窗提示：缩小尺寸和间距 */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        .modal-content {
+            background-color: var(--bg-card);
+            padding: 1.5rem; /* 原2rem → 1.5rem */
+            border-radius: 12px; /* 原16px → 12px */
+            max-width: 90%;
+            width: 380px; /* 原400px → 380px */
+            text-align: center;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+            border-top: 3px solid var(--error);
+        }
+        .modal-title {
+            font-size: 1.2rem; /* 原1.3rem → 1.2rem */
+            font-weight: 700;
+            color: var(--error);
+            margin-bottom: 0.8rem; /* 原1rem → 0.8rem */
+        }
+        .modal-text {
+            font-size: 0.95rem; /* 原1rem → 0.95rem */
+            color: var(--text-light);
+            margin-bottom: 1.2rem; /* 原1.5rem → 1.2rem */
+            line-height: 1.5; /* 行高更紧凑 */
+        }
+        .modal-btn {
+            padding: 0.7rem 1.8rem; /* 原0.8rem 2rem → 0.7rem 1.8rem */
+            background-color: var(--primary);
+            color: #FFFFFF;
+            border: none;
+            border-radius: 8px; /* 原10px → 8px */
+            font-size: 0.95rem; /* 原1rem → 0.95rem */
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .modal-btn:hover {
+            background-color: var(--primary-dark);
+        }
+
+        /* 页脚：减少内边距，更紧凑 */
+        footer {
+            padding: 1.5rem 0; /* 原2rem → 1.5rem */
+            text-align: center;
+            width: 100%;
+            background-color: var(--primary-dark);
+            color: #E1E5E8;
+            padding-bottom: calc(1.5rem + env(safe-area-inset-bottom)); /* 原2rem → 1.5rem */
+            border-top: 2px solid var(--accent);
+        }
+        footer p {
+            font-size: clamp(0.8rem, 2.2vw, 0.95rem); /* 缩小字号 */
+            opacity: 0.9;
+            max-width: 90%;
+            margin: 0 auto;
+            line-height: 1.4; /* 行高更紧凑 */
+        }
+        footer p span {
+            color: var(--accent);
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <!-- Banner区 -->
+    <section class="banner-section">
+        <img src="【你的Banner图片链接】" alt="Natural Male Health Support" class="banner-img">
+        <div class="banner-overlay">
+            <h1 class="banner-title">100% Natural Male Health Support</h1>
+            <p class="banner-subtitle">
+                <span class="banner-highlight">No Artificial Additives • No Harmful Chemicals</span>
+                <br>Superior to mainstream products with pure natural ingredients – Fast UK Delivery
+            </p>
+        </div>
+    </section>
+
+    <!-- 产品介绍区 -->
+    <section class="intro-section">
+        <div class="container">
+            <p class="section-intro">
+                Our formula is crafted with <span class="highlight">100% natural, sustainably-sourced ingredients</span> – no fillers, no synthetics, just pure support for male health. Unlike mass-market alternatives, our products are designed for maximum efficacy and safety.
+            </p>
+        </div>
+    </section>
+
+    <!-- 产品套餐区 -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-grid">
+                <!-- 尝试装 -->
+                <div class="product-card">
+                    <img src="【你的套餐1图片链接】" alt="Trial Pack" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-name">Trial Pack</h3>
+                        <p class="product-desc">
+                            Starter pack of our <span class="natural">100% natural formula</span> – perfect to experience the benefits of pure, chemical-free support. Free UK delivery included.
+                        </p>
+                        <div class="product-price">£99.00</div>
+                    </div>
+                </div>
+
+                <!-- 爆款装（修复class命名错误：原product-card.best-value → product-card best-value） -->
+                <div class="product-card best-value">
+                    <div class="best-value-badge">BEST VALUE</div>
+                    <img src="【你的套餐2图片链接】" alt="Best-Seller Pack" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-name">Best-Seller Pack</h3>
+                        <p class="product-desc">
+                            Our most popular bundle of <span class="natural">100% natural formula</span> – save £98 compared to single purchases. Ideal for long-term support, free worldwide delivery included.
+                        </p>
+                        <div class="product-saving">SAVE £98 • BEST VALUE</div>
+                        <div class="product-price">£199.00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 引导区（手机端横排标签） -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="cta-title">Get Your <span class="highlight">Natural Health Support</span> Today</h2>
+            <div class="cta-tags">
+                <div class="cta-tag">Discreet Privacy Delivery</div>
+                <div class="cta-tag">24/7 UK Customer Support</div>
+                <div class="cta-tag">Fast & Secure Checkout</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 订单表单区（新增校验逻辑） -->
+    <section class="order-section">
+        <div class="container">
+            <form id="orderForm" class="order-form" 
+                  action="https://docs.google.com/forms/d/e/1FAIpQLSdZmdje2jCUueRenNT8/formResponse" 
+                  method="POST" target="_blank">
+                
+                <input type="hidden" name="cmd" value="_xclick">
+                <input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL">
+                <input type="hidden" name="currency_code" value="GBP">
+                <input type="hidden" id="paypalAmount" name="amount" value="99.00">
+                <input type="hidden" id="paypalItemName" name="item_name" value="Trial Pack - £99.00">
+
+                <div class="form-group" id="fullname-group">
+                    <label for="fullname">Full Name (Required)</label>
+                    <input type="text" id="fullname" name="entry.1000000" placeholder="e.g. John Smith" required>
+                </div>
+                <div class="form-group" id="email-group">
+                    <label for="email">Email Address (Required)</label>
+                    <input type="email" id="email" name="entry.1000001" placeholder="e.g. john@example.co.uk" required>
+                </div>
+                <div class="form-group" id="phone-group">
+                    <label for="phone">Phone Number (Required)</label>
+                    <input type="tel" id="phone" name="entry.1000002" placeholder="e.g. +44 7911 123456" required>
+                </div>
+                <div class="form-group" id="address-group">
+                    <label for="address">Shipping Address (Required)</label>
+                    <textarea id="address" name="entry.1000003" rows="2" placeholder="Full address including postcode (e.g. 123 High Street, London, SW1A 1AA, UK)" required></textarea>
+                </div>
+                <div class="form-group" id="package-group">
+                    <label for="package">Select Your Package (Required)</label>
+                    <select id="package" name="entry.1000004" required onchange="updatePayPalParams()">
+                        <option value="Trial Pack - £99.00" data-price="99.00">Trial Pack - £99.00</option>
+                        <option value="Best-Seller Pack - £199.00 (Save £98)" data-price="199.00">Best-Seller Pack - £199.00 (Save £98)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="notes">Special Delivery Notes (Optional)</label>
+                    <textarea id="notes" name="entry.1000005" rows="1" placeholder="Any special requests for delivery"></textarea>
+                </div>
+
+                <button type="button" class="pay-btn" onclick="validateForm()">Complete Order & Pay Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 新增：弹窗提示组件 -->
+    <div class="modal-overlay" id="errorModal">
+        <div class="modal-content">
+            <h3 class="modal-title">Missing Required Information</h3>
+            <p class="modal-text" id="modalMessage">Please fill in all required fields before proceeding.</p>
+            <button class="modal-btn" onclick="closeModal()">OK</button>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <p>100% Natural Ingredients • Fast & Discreet Delivery • UK Based Support<br>
+            © 2025 - <span>All Rights Reserved</span>. For adult use only.</p>
+        </div>
+    </footer>
+
+    <script>
+        // 更新PayPal参数
+        function updatePayPalParams() {
+            const packageSelect = document.getElementById('package');
+            const selectedOption = packageSelect.options[packageSelect.selectedIndex];
+            const price = selectedOption.getAttribute('data-price');
+            const itemName = selectedOption.value;
+            
+            document.getElementById('paypalAmount').value = price;
+            document.getElementById('paypalItemName').value = itemName;
+        }
+
+        // 核心修改2：表单校验逻辑
+        function validateForm() {
+            // 清除所有错误状态
+            document.querySelectorAll('.form-group').forEach(group => {
+                group.classList.remove('error');
+            });
+
+            // 获取必填项
+            const fullname = document.getElementById('fullname').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const phone = document.getElementById('phone').value.trim();
+            const address = document.getElementById('address').value.trim();
+            const packageSelect = document.getElementById('package');
+
+            let isValid = true;
+            let errorMessage = '';
+
+            // 校验每一项
+            if (!fullname) {
+                isValid = false;
+                document.getElementById('fullname-group').classList.add('error');
+                errorMessage = 'Please enter your full name.';
+            } else if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                isValid = false;
+                document.getElementById('email-group').classList.add('error');
+                errorMessage = 'Please enter a valid email address.';
+            } else if (!phone) {
+                isValid = false;
+                document.getElementById('phone-group').classList.add('error');
+                errorMessage = 'Please enter your phone number.';
+            } else if (!address) {
+                isValid = false;
+                document.getElementById('address-group').classList.add('error');
+                errorMessage = 'Please enter your shipping address.';
+            } else if (!packageSelect.value) {
+                isValid = false;
+                document.getElementById('package-group').classList.add('error');
+                errorMessage = 'Please select your package.';
+            }
+
+            // 如果校验不通过，弹窗提示
+            if (!isValid) {
+                document.getElementById('modalMessage').textContent = errorMessage;
+                document.getElementById('errorModal').classList.add('active');
+                return;
+            }
+
+            // 校验通过，提交订单
+            submitOrder();
+        }
+
+        // 关闭弹窗
+        function closeModal() {
+            document.getElementById('errorModal').classList.remove('active');
+        }
+
+        // 点击弹窗遮罩关闭
+        document.getElementById('errorModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+
+        // 提交订单
+        function submitOrder() {
+            const form = document.getElementById('orderForm');
+            form.submit();
+
+            setTimeout(() => {
+                const paypalForm = document.createElement('form');
+                paypalForm.method = 'POST';
+                paypalForm.action = 'https://www.paypal.com/cgi-bin/webscr';
+                paypalForm.target = '_top';
+
+                const paypalParams = form.querySelectorAll('input[name="cmd"], input[name="business"], input[name="currency_code"], input[name="amount"], input[name="item_name"]');
+                paypalParams.forEach(param => {
+                    const input = document.createElement('input');
+                    input.type = 'hidden';
+                    input.name = param.name;
+                    input.value = param.value;
+                    paypalForm.appendChild(input);
+                });
+
+                document.body.appendChild(paypalForm);
+                paypalForm.submit();
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
